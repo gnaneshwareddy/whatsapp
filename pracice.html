@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.outline{
+        border: 3px solid;
+        width:300px;
+        height:450px;
+        border-radius: 20px;
+background-color: rgba(0, 255, 115, 0.295);
+overflow-x: scroll;
+scrollbar-width: none;
+position: fixed;
+}
+
+.header{
+    border: px solid;
+    width:300px;
+    height:45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 13px;background-color:white;
+position: fixed;
+    z-index: 1;
+}
+.footer{
+    height: 70px;
+    background-color:white;
+    position:relative;
+top: 400px;
+position: sticky;
+z-index: 6;
+
+
+}
+.image{
+    position: relative;
+    left: 230px;
+    top: 3px;
+   
+}
+.img {
+    position: relative;
+    left: 7px;
+    bottom: 20px;
+    width: 23px;
+}
+.profile{
+    position: relative;
+    bottom: 15px;
+    border-radius:40px;
+    width: 30px;
+    left: 7px;
+   
+}
+ .nii{
+    position: relative;
+    bottom: 75px;
+    left: 80px;
+  font-size: 25px;
+  color: rebeccapurple;
+ }
+.video{
+    position: relative;
+    left: 190px;
+    bottom: 130px;
+    width: 30px;
+}
+.narrow{
+    position: relative;
+width: 25px;
+   left: 230px;
+   bottom: 162px;
+   
+}
+.a{
+    position: relative;
+    top: 30px;
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 150px;
+  border-radius: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+.b{
+    position: relative;
+    top:50px;
+    width: 200px;
+    background-color: rgba(157, 24, 24, 0.479);
+    border-radius: 50px;
+    text-align: center;
+  padding: 3px;
+    font-size: 15px;
+    left: 90px;
+}
+.mark{
+    width:30px;
+ position: relative;
+ top: 5px;
+}
+.c{
+    background-color: rgba(0, 128, 0, 0.313);
+    width:200px;
+   font-size:15px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+
+    padding: 5px;
+}
+.d{
+    background-color: rgba(157, 24, 24, 0.479);
+    width: 220px;
+    border-radius: 20px;
+    position: relative;
+    top:50px;
+    text-align: center;
+    padding: 5px;
+    left: 65px;
+}
+.e{
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.f{
+    background-color: rgba(157, 24, 24, 0.479);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    left: 60px;
+}
+.g{
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+.h{
+    
+    background-color: rgba(157, 24, 24, 0.479);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    
+    padding: 5px;
+   left: 60px;
+}
+.i{
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    
+    padding: 5px;
+  
+}
+.j{
+   
+    background-color: rgba(157, 24, 24, 0.479);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    left:65px;
+    text-align: center;
+    padding: 5px;
+  
+}
+.k{
+    
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    bottom: 60px;
+    text-align: center;
+  
+}
+.l{
+    background-color: rgba(157, 24, 24, 0.479);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:140px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    left: 65px;
+}
+.m{
+    background-color: rgba(0, 128, 0, 0.313);
+    width: 220px;
+    font-size: 15px;
+    position: relative;
+    top:100px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+
+
+.sticky{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+    top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index: 2;
+}
+.sticky1{
+    width: 100px;
+    height: 20px;
+    background-color:rgb(240, 206, 206);
+    position: relative;
+    left: 100px;
+   top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    z-index: 3;
+}
+
+
+.input{
+   
+    position: relative;
+    left:px;
+    height: 20px;
+  padding: 5px;
+width: 240px;
+border-radius: 20px;
+font-size: 16px;
+border-color: black;
+text-align: center;
+top: 8px;
+}
+
+.style{
+    position: relative;
+    bottom: 32px;
+    right: 30px;
+    width: 25px;
+
+
+}
+.file{
+    position: relative;
+    bottom: 90px;
+  width: 20px;
+    left: 170px;
+}
+.cam{
+    position: relative;
+    bottom: 89px;
+    left: 190px;
+
+    width: 25px;
+}
+.three{
+    position: relative;
+    left: 225px;
+    bottom: 130px;
+}
+.rupee{
+    width: 22px;
+    position: relative;
+    bottom: 60px;
+    left: 190px;
+}
+.mike{
+    position: relative;
+    width:35px;
+    left: 260px;
+    bottom: 30px;
+}
+  </style>
+
+
+
+</head>
+<body>
+    <div class="outline">
+        
+        <div class="header">
+                <img class="image"  src="" >
+                
+                <div>
+                    <img class="img"  src="./arrow.png" width="25">
+                    <img class="profile" src="./Screenshot (17).png" width="30">
+                    <p class="nii">BITTU</p>
+                    <img class="video"  src="./video-camera.png"  >
+                    <img  class="three"  src="./dots.png"  width="30px">
+                   
+                </div>
+                <img class="narrow" src="./phone-call.png">
+                </div>
+                <div class="footer">
+                     <input class="input" type="text" placeholder="Type message          " ><div ><img class="mike" src="./mic.png" width="40"> <img class="style" src="./happy.png" width="30"></div>
+                    
+                     <div><img class="rupee" src="./rupee.png" >  </div><img class="file" src="./link.png"> 
+                     <img  class="cam"  src="./camera.png">
+                </div>
+                <div class="sticky">
+                    19 june 2024
+                                 </div>
+                <p class="a"> Hi ra! unnava</p>
+                <p class="b">Ha ra unna m chestunav <img style="position: relative;top: 5px;left: 7px;" src="./tick.png" width="30px"> </p>
+                <p class="c">  M ledhu ra nuvu</p>
+               <p class="d"> M chesthale ra kali<img style="position: relative;top: 5px;left: 50px;" src="./tick.png" width="30px"></p>
+             <p class="e"> what's next</p>
+             <p class="f">Present m ledhu ra10k coders lo coaching pothuna vastuna<img style="position: relative;top: 5px;left: 80px;" src="./tick.png" width="30px"></p>
+             <div class="sticky1">
+20 june 2024
+             </div>
+            <p class="g">Avun avun avro annr nuv naveen pothunr anta ga</p>
+
+             <p class="h">Ah avun ra nuv m dng mari<img style="position: relative;top: 5px;left: 80px;" src="./tick.png" width="20px"></p>
+              <p class="i">nadhi m ledhu ra struggling for job </p>
+            <p class="j">okok then join in our instutite<img style="position: relative;top: 5px;left: px;" src="./tick.png" width="30px"></p>
+            <p class="k">okok lets seee </p>
+            <p class="l">okok theN bye ra<img style="position: relative;top: 5px;left: px;" src="./tick.png" width="30px"></p>
+            <p class="m">BYE!!!!!!!1</p><Br>
+                
+
+
+               
+        
+
+</body>
+</html>
